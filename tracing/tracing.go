@@ -18,9 +18,10 @@ import (
 	semconv "go.opentelemetry.io/otel/semconv/v1.21.0"
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/mailgun/holster/v4/errors"
 	"github.com/sirupsen/logrus"
 	"github.com/uptrace/opentelemetry-go-extra/otellogrus"
+
+	"github.com/mailgun/holster/v4/errors"
 )
 
 type initState struct {
